@@ -35,7 +35,7 @@
     <!-- header section start -->
     <header class="container mx-auto">
         <!-- Navigation Start -->
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-base-100 mb-7">
             <div class="flex-1">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -61,7 +61,7 @@
                   <li><a>Contact</a></li>
                 </ul>
               </div>
-              <a class="text-xl">Bike Dekho</a>
+              <a class="text-4xl font-bold">Bike Dekho</a>
             </div>
             <div class="hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
@@ -76,10 +76,10 @@
             </div>
         </div>
         <!-- Hero Section Start -->
-         <section>
+         <section class="mb-24">
                 <div class="carousel w-full lg:h-[550px] bg-bike-primary-bg">
                     <div id="slide1" class="carousel-item relative w-full">
-                        <div class="flex flex-col lg:flex-row p-12 lg:p-24">
+                        <div class="flex flex-col lg:flex-row p-12 lg:p-28">
                             <div class="space-y-7 flex-1">
                             <h2 class="text-6xl font-bold">
                               Ride-on R15 V4 <br/>
@@ -158,16 +158,67 @@
             </div>
          </section>
     </header>
-    <main class="container mx-auto">
-        <div>
-            <h1></h1>
-            <p></p>
-            <div>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+    <main class="md:container mx-auto" >
+        <!-- Biker Of The year Section -->
+        <section class="mb-24 text-center">
+            <h1 class="text-5xl font-bold mb-5 ">Fetured Bikes In This Year</h1>
+            <p class="text-error mb-8">Best bike collection</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:flex lg:justify-around space-y-10 ml-16 md:ml-0 lg:ml-0">
+                <img src="images/others/feature-bike.png" alt="">
+                <img src="images/others/feature-bike.png" alt="">
+                <img src="images/others/feature-bike.png" alt="">
             </div>
-        </div>
+        </section>
+        <!-- Latest Bike Section -->
+        <section class="mb-24">
+            <h1 class="text-5xl font-bold text-center mb-14">Latest News</h1>
+            <div class="grid  grid-cols-1 md:grid-cols-2 lg:flex lg:justify-evenly gap-7">
+                
+                  <div class="card bg-base-100 w-96 shadow-xl">
+                    <figure>
+                      <img src="images/others/latest1.png"
+                        alt="Shoes" />                       
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions ">
+                        <button class="btn bg-bike-primary text-white">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 w-96 shadow-xl">
+                    <figure>
+                      <img src="images/others/latest2.png"
+                        alt="Shoes" />
+                        
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions ">
+                        <button class="btn  border-2 border-bike-primary text-bike-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card bg-base-100 w-96  shadow-xl">
+                    <figure>
+                      <img src="images/others/latest3.png"
+                        alt="Shoes" />
+                        
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions ">
+                        <button class="btn  border-2 border-bike-primary text-bike-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- Clients section -->
+         
     </main>
 </body>
 </html>
