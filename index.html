@@ -158,23 +158,23 @@
             </div>
          </section>
     </header>
-    <main class="md:container mx-auto" >
+    <main>
         <!-- Biker Of The year Section -->
-        <section class="mb-24 text-center">
+        <section class="mb-24 text-center container mx-auto">
             <h1 class="text-5xl font-bold mb-5 ">Fetured Bikes In This Year</h1>
             <p class="text-error mb-8">Best bike collection</p>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:flex lg:justify-around space-y-10 ml-16 md:ml-0 lg:ml-0">
-                <img src="images/others/feature-bike.png" alt="">
-                <img src="images/others/feature-bike.png" alt="">
-                <img src="images/others/feature-bike.png" alt="">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:flex">
+                <img class="container mx-auto w-96 h-80" src="images/others/feature-bike.png" alt="">
+                <img class="container mx-auto w-96 h-80" src="images/others/feature-bike.png" alt="">
+                <img class="container mx-auto w-96 h-80"src="images/others/feature-bike.png" alt="">
             </div>
         </section>
         <!-- Latest Bike Section -->
-        <section class="mb-24">
+        <section class="mb-24 container mx-auto ">
             <h1 class="text-5xl font-bold text-center mb-14">Latest News</h1>
             <div class="grid  grid-cols-1 md:grid-cols-2 lg:flex lg:justify-evenly gap-7">
-                
-                  <div class="card bg-base-100 w-96 shadow-xl">
+                <!-- latest bike card-1 -->
+                  <div class="card bg-base-100 w-96 shadow-xl container mx-auto">
                     <figure>
                       <img src="images/others/latest1.png"
                         alt="Shoes" />                       
@@ -187,11 +187,11 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card bg-base-100 w-96 shadow-xl">
+                  <!-- latest bike card-2 -->
+                  <div class="card bg-base-100 w-96 shadow-xl container mx-auto">
                     <figure>
                       <img src="images/others/latest2.png"
-                        alt="Shoes" />
-                        
+                        alt="Shoes" />   
                     </figure>
                     <div class="card-body">
                       <h2 class="card-title">Shoes!</h2>
@@ -201,7 +201,8 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card bg-base-100 w-96  shadow-xl">
+                  <!-- latest bike card-3 -->
+                  <div class="card bg-base-100 w-96  shadow-xl container mx-auto">
                     <figure>
                       <img src="images/others/latest3.png"
                         alt="Shoes" />
@@ -218,7 +219,110 @@
             </div>
         </section>
         <!-- Clients section -->
-         
+        <section class="mb-24 container mx-auto">
+            <h1 class="text-5xl font-bold text-center mb-16">Happy <span class="text-bike-primary">Clients says</span></h1>
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:flex lg:justify-around gap-4 ">
+                <!-- client card-1 -->
+                <div class="w-96 container mx-auto md:w-64 lg:w-80  border-2 rounded-xl text-center p-6 space-y-3">
+                      <div class="avatar">
+                        <div class="w-24 rounded-full">
+                          <img src="images/others/user-1.png"/>
+                        </div>
+                      </div>
+                     <p class="text-gray-500">Slate helps you see how many more days you need to work to reach your financial 
+                     goal for the month and year.</p>
+                    <div class="w-5 flex gap-3 text-center items-center mx-16">
+                        <img src="images/icons/star-solid.svg" alt="">
+                        <img src="images/icons/star-solid.svg" alt="">
+                        <img src="images/icons/star-solid.svg" alt="">
+                        <img src="images/icons/star-solid.svg" alt="">
+                        <img src="images/icons/star-regular.svg" alt=""> 
+                    </div>
+                    <p class="text-info">Regina Miles</p>
+                    <p class="font-bold">Banker</p>
+                </div>
+                <!-- client card-2 -->
+                <div class="w-96 container mx-auto md:w-64 lg:w-80  border-2 rounded-xl text-center p-6 space-y-3">
+                    <div class="avatar">
+                        <div class="w-24 rounded-full">
+                            <img src="images/others/user-2.png"/>
+                        </div>
+                      </div>
+                     <p class="text-gray-500">Slate helps you see how many more days you need to work to reach your financial 
+                     goal for the month and year.</p>
+                    <div class="w-5 flex gap-3 text-center items-center mx-16">
+                        <img src="images/icons/star-solid.svg" alt="">
+                        <img src="images/icons/star-solid.svg" alt="">
+                        <img src="images/icons/star-solid.svg" alt="">
+                        <img src="images/icons/star-solid.svg" alt="">
+                        <img src="images/icons/star-regular.svg" alt=""> 
+                    </div>
+                    <p class="text-info">Regina Miles</p>
+                    <p class="font-bold">Banker</p>
+                </div>
+                <!-- client card-3 -->
+                <div class="w-96 container mx-auto md:w-64 lg:w-80  border-2 rounded-xl text-center p-6 space-y-3">
+                    <div class="avatar">
+                        <div class="w-24 rounded-full">
+                            <img src="images/others/user-3.png"/>
+                        </div>
+                      </div>
+                     <p class="text-gray-500">Slate helps you see how many more days you need to work to reach your financial 
+                     goal for the month and year.</p>
+                    <div class="w-5 flex gap-3 text-center items-center mx-16">
+                        <img src="images/icons/star-solid.svg" alt="">
+                        <img src="images/icons/star-solid.svg" alt="">
+                        <img src="images/icons/star-solid.svg" alt="">
+                        <img src="images/icons/star-solid.svg" alt="">
+                        <img src="images/icons/star-regular.svg" alt=""> 
+                    </div>
+                    <p class="text-info">Regina Miles</p>
+                    <p class="font-bold">Banker</p>
+                </div>
+             </div>
+        </section>
+        <!-- Question section -->
+        <section class="mb-24 container mx-auto ">
+            <h1 class="text-5xl font-bold text-center mb-16">Frequently Asked<span class="text-bike-primary"> Questions</span></h1>
+            <div class="grid grid-cols-1 md:flex lg:flex ">
+                <div class=" w-1/4 container mx-auto">
+                    <img src="images/others/faq.png" alt="">
+                </div>
+                <div class="w-2/4 container mx-auto">
+                    <div class="join join-vertical w-full">
+                        <div class="collapse collapse-arrow join-item border-base-300 border">
+                          <input type="radio" name="my-accordion-4" checked="checked" />
+                          <div class="collapse-title text-xl font-medium">What are the most important things I should know about riding a bike?</div>
+                          <div class="collapse-content">
+                            <p class="text-gray-500">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                          </div>
+                        </div>
+                        <div class="collapse collapse-arrow join-item border-base-300 border">
+                          <input type="radio" name="my-accordion-4" />
+                          <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a new one?</div>
+                          <div class="collapse-content">
+                            <p class="text-gray-500">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                          </div>
+                        </div>
+                        <div class="collapse collapse-arrow join-item border-base-300 border">
+                          <input type="radio" name="my-accordion-4" />
+                          <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+                          <div class="collapse-content">
+                            <p class="text-gray-500">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                          </div>
+                        </div>
+                        <div class="collapse collapse-arrow join-item border-base-300 border">
+                            <input type="radio" name="my-accordion-4" />
+                            <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
+                            <div class="collapse-content">
+                              <p class="text-gray-500">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <!-- Footer Section -->
 </body>
 </html>
